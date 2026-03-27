@@ -7,7 +7,7 @@ setup(
     py_modules=["hlt_follow_pidboil"],
     entry_points={
         "cbpi.plugin": [
-            "cbpi4-HERMS-Axes = hlt_follow_pidboil",
+            "cbpi4-HERMS-Axes = hlt_follow_pidboil:setup",
         ],
     },
 )
